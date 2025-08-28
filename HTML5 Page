@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="A simple semantic HTML5 webpage demonstrating accessibility and SEO best practices.">
+  <title>My Semantic HTML5 Page</title>
+</head>
+<body>
+  <!-- Header -->
+  <header>
+    <h1>Welcome to My Webpage</h1>
+    <nav aria-label="Main navigation">
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Main Content -->
+  <main>
+    <!-- About Section -->
+    <section id="about">
+      <h2>About This Page</h2>
+      <p>
+        This page is built with <strong>HTML5 semantic tags</strong> to improve both 
+        accessibility and search engine optimization. It follows best practices 
+        for screen readers and human readability.
+      </p>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services">
+      <h2>Services</h2>
+      <article>
+        <h3>Web Accessibility</h3>
+        <p>
+          I create websites that are accessible to everyone, including people using screen readers.
+        </p>
+      </article>
+      <article>
+        <h3>SEO Optimization</h3>
+        <p>
+          I use semantic HTML and metadata to ensure content is search engine friendly.
+        </p>
+      </article>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+      <h2>Contact</h2>
+      <address>
+        <p>Email: <a href="mailto:example@email.com">example@email.com</a></p>
+        <p>Phone: <a href="tel:+123456789">+1 (234) 567-89</a></p>
+      </address>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 My Webpage. All rights reserved.</p>
+  </footer>
+</body>
+</html>
